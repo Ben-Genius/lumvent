@@ -16,6 +16,18 @@ const config: Config = {
         xl: '1280px', // extra large devices
         '2xl': '1536px', // 2x extra large devices
       },
+      colors: {
+        color1: '#232933',
+        color2: '#33302B',
+        color3: '#282325',
+        color4: '#131517',
+        color5: '#141618',
+        color6: '#1F1E2A',
+      },
+      backgroundImage: {
+        'custom-gradient':
+          'linear-gradient(to right bottom, #232933, #33302B, #282325, #131517, #131517, #141618, #1F1E2A)',
+      },
     },
   },
   plugins: [],
