@@ -31,21 +31,21 @@ const Footer = (props: Props) => {
               </Link>
        </div>
             <div className='flex items-center gap-5 whitespace-nowrap my-3 xs:my-0'>
-              <Link href=''>What's New</Link>
-              <Link href=''> Explore </Link>
-              <Link href=''>Pricing</Link>
-              <Link href=''>Help</Link>
+              <Link href='https://lu.ma/release/fall-2023'>What's New</Link>
+              <Link href='https://lu.ma/explore'> Explore </Link>
+              <Link href='https://lu.ma/pricing'>Pricing</Link>
+              <Link href='https://help.lu.ma/'>Help</Link>
          </div>
         </div>
 
         <ul className='flex items-center gap-5 text-[0.90rem]'>
-          <Link href=''>
+            <Link href='https://lu.ma/terms'>
             <li>Terms</li>
           </Link>
-          <Link href=''>
+            <Link href='https://lu.ma/privacy-policy'>
             <li>Privacy Policy</li>
           </Link>
-          <Link href=''>
+            <Link href='https://lu.ma/security'>
             <li>Security</li>
           </Link>
         </ul>
