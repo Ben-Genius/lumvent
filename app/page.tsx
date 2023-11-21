@@ -45,7 +45,8 @@ export default function page() {
          
             
             <video autoPlay loop  muted className="w-[35rem] h-[35rem] mx-auto sm:w-[37rem]">
-              <source src="/phone-dark.webm" type="video/webm"></source>
+              <source src="/phone-dark.webm" type="video/webm"/>
+              Video Not Supported on Device
           </video>
         </div>
       </div>
