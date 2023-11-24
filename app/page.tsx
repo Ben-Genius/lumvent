@@ -3,8 +3,8 @@ import Image from 'next/image';
 import lumak from '../public/images/wordmark.svg';
 export default function page() {
   return (
-    <section className='bg-[#fff5f5] py-10 sm:pt-16'>
-      <div className='container mx-auto p-2'>
+    <section className='bg-[#fff5f5] py-10 sm:pt-16 container mx-auto'>
+      <div className=' p-2'>
         <div className='display-block sm:flex sm:gap-10 sm:space-x-40 justify-center items-center'>
           {/* left hero section */}
           <div className='max-w-[22rem] mx-auto'>
