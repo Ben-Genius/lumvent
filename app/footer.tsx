@@ -10,7 +10,7 @@ type Props = {};
 
 const Footer = (props: Props) => {
   return (
-    <div className='max-w-[80rem] mx-auto p-0 '>
+    <div className='max-w-[80rem] mx-auto p-0 sticky top-[100vh]'>
       <hr />
     <footer className='bg-[#fff5f5] flex justify-between  pt-4 px-4'>
  
@@ -29,7 +29,7 @@ const Footer = (props: Props) => {
                   </g>
                 </svg>
               </Link>
-       </div>
+       </div> 
             <div className='flex items-center gap-5 whitespace-nowrap my-3 xs:my-0'>
               <Link href='https://lu.ma/release/fall-2023'>What's New</Link>
               <Link href='https://lu.ma/explore'> Explore </Link>
