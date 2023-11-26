@@ -1,9 +1,13 @@
 // import Head from 'next/head';
 import Image from 'next/image';
 import lumak from '../public/images/wordmark.svg';
+import Header from './header';
+import Footer from './footer';
 export default function page() {
   return (
-    <section className='bg-[#fff5f5] py-10 sm:pt-16 container mx-auto'>
+    <div className='m-0 p-0 w-full h-full bg-[#fff5f5]'>
+      <Header/>
+    <section className='bg-[#fff5f5] h-full sm:pt-16 '>
       <div className=' p-2'>
         <div className='display-block sm:flex sm:gap-10 sm:space-x-40 justify-center items-center'>
           {/* left hero section */}
@@ -49,6 +53,8 @@ export default function page() {
           </video>
         </div>
       </div>
-    </section>
+      </section>
+      <Footer/>
+      </div>
   );
 }

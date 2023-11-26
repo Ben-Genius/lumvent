@@ -8,7 +8,7 @@ const Header = () => {
   return (
     
     // <header className="p-4 bg-[linear-gradient(-45deg,_#d118ff,_#f32861_51.59%,_#f8245d_51.6%,_#ffbe19_100.05%)]" >
-    <header className="p-3 bg-[#fff5f5]">
+    <header className="p-3 ">
         <nav className="container mx-auto flex justify-between  items-center">
         <Link href='/'>
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 133 134" width='20px' height='20px' className='text-gray-400 hover:text-black transition duration-500'>
