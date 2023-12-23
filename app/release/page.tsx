@@ -2,15 +2,16 @@ import React from 'react'
 import Header from '../header'
 import Footer from '../footer'
 import Hero from './hero'
-import styles from './styles.module.css'
+import Index from './LumaList'
 
 const page = () => {
   return (
-    <div className={`${styles.gradient} brightness-95`}>
+    <div className='gradient brightness-95'>
       <Header/>
-      <Hero/>
+    <Hero/>
+      <Index/>
+    
     </div>
-
   )
 }
 
