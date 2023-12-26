@@ -4,6 +4,10 @@ import ios from '../../../public/images/iosbanner.png';
 import create from '../../../public/images/create.png';
 import invite from '../../../public/images/invite.png';
 import notify from '../../../public/images/notifications.png';
+import {iosAppList1, iosAppList2} from '../LumaList/iOsData';
+import IosListComponent from './iosListComponent';
+import IosListIcons from './iosListIcons';
+import { GoArrowUpRight } from "react-icons/go";
 
 const Index = () => {
   return (
@@ -25,8 +29,31 @@ const Index = () => {
       <Image src={notify} alt="iOs banner" className='object-cover my-3 rounded-2xl  bg-[rgba(48,48,48,0.45)] w-full md:w-[44rem] mx-auto'/>
 
       </div>
+      <div className='my-10 w-full md:flex items-center justify-between '>
+        {iosAppList1.map((item, index) => (
+          <div key={index}>
+          <IosListComponent title={item.title} para={item.para}/>
+          <hr className='border-[1px] border-gray-700'/>
+          </div>
+        ))}
+      </div>
+      <div className='w-full md:flex items-center justify-between sm:flex-wrap '>
+        {iosAppList2.map((list,index) => (
+          <div key={index}>
+            <IosListIcons icon={list.icon} title={list.title} para={list.para}/>
+            <hr className='border-[1px] border-gray-700 mb-4'/>
 
-    </div>
+          </div>
+        ))}
+      </div>
+<div className='flex py-3 px-4 gap-2 items-center justify-center rounded-3xl  bg-blue-500 my-10 max-w-[15rem] mx-auto'>      
+<button className=' '> Download for iOS  
+
+</button>
+<GoArrowUpRight /> 
+
+</div>
+     </div>
   )
 }
 
