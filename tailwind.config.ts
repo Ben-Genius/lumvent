@@ -8,14 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      screens: {
-        xs: '480px', // extra small devices
-        sm: '640px', // small devices
-        md: '768px', // medium devices
-        lg: '1024px', // large devices
-        xl: '1280px', // extra large devices
-        '2xl': '1536px', // 2x extra large devices
-      },
+      // screens: {
+      //   xs: '480px', // extra small devices
+      //   sm: '640px', // small devices
+      //   md: '768px', // medium devices
+      //   lg: '1024px', // large devices
+      //   xl: '1280px', // extra large devices
+      //   '2xl': '1536px', // 2x extra large devices
+      // },
       colors: {
         color1: '#232933',
         color2: '#33302B',
