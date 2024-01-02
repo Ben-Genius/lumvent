@@ -11,7 +11,7 @@ const Footer = () => {
     <div className='m-0 w-full bg-[#fff5f5] sticky top-[100vh]'>
       <div className='max-w-7xl mx-auto bg-[#fff5f5]'>
         <hr />
-        <footer className='flex flex-col md:flex-row justify-between pt-4 px-4'>
+        <footer className='flex flex-col md:flex-row justify-between pt-4 px-5'>
 
           {/* Left Footer Section */}
           <div className='flex flex-col md:flex-row justify-between'>
